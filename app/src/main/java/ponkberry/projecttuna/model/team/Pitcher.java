@@ -1,4 +1,4 @@
-package ponkberry.projecttuna.model.player;
+package ponkberry.projecttuna.model.team;
 
 public class Pitcher extends Player {
 
@@ -7,6 +7,14 @@ public class Pitcher extends Player {
     private int earnedRuns;
     private int walks;
     private int strikeOuts;
+
+    public Pitcher(double inningsPitched, int hits, int earnedRuns, int walks, int strikeOuts) {
+        this.inningsPitched = inningsPitched;
+        this.hits = hits;
+        this.earnedRuns = earnedRuns;
+        this.walks = walks;
+        this.strikeOuts = strikeOuts;
+    }
 
     public double getInningsPitched() {
         return inningsPitched;

@@ -1,11 +1,19 @@
-package ponkberry.projecttuna.model.player;
+package ponkberry.projecttuna.model.team;
 
 
-public class Player {
+class Player {
 
     private String name;
     private int position;
     private int score;
+
+    Player(){}
+
+    public Player(String name, int position, int score){
+        this.name = name;
+        this.position = position;
+        this.score = score;
+    }
 
     public String getName() {
         return name;
