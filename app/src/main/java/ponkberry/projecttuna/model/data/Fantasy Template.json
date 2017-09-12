@@ -1,0 +1,57 @@
+lineUpCard{
+  team1:players[];
+  team2:players[];
+}
+
+player{
+  imageSrc="link-to-image",
+  team:"string",
+  position:"position or pitcher object"
+  hitterStats:"hitter object"
+}
+
+//players will either use the position object for their stats, except pitchers 
+//will use the pitcher object
+position{
+  posName:string,
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:int
+}
+fieldingPercentage{
+  assists:int;
+  putouts:int;
+  errors:int;
+}
+pitcher{
+  
+  outsRecorded:int;
+  //^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:int,
+  hits:int,
+  earnedRuns:int, 
+  walks:int,
+  strikeouts:int,
+  battersHit:int;
+
+hitter{
+ 
+  runs: int,
+  rbi: int,
+  totalBases:int,
+  stolenBases:int,
+  walks:int
+}
+
+teamRoster{
+  FB:player,
+  SS:player,
+  SB:player,
+  TB:player,
+  C:player,
+  SP:player,
+  RP:player,
+  RF:player,
+  CF:player,
+  LF:player
+}
