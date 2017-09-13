@@ -27,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_weight="0.4"
             android:layout_height="0dp"
+            android:paddingLeft="30dp"
             android:textSize="14sp"
             android:textColor="@color/bravesNavy"
             android:text="Stats" />
@@ -39,7 +40,7 @@
         android:layout_weight="0.2"
         android:layout_height="match_parent"
         android:layout_margin="16dp"
-        android:layout_gravity="right"
+        android:layout_gravity="center_vertical"
         android:paddingLeft="5dp"
         android:textSize="22sp"
         android:textColor="@color/bravesNavy"

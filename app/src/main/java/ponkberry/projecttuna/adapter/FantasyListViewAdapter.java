@@ -55,9 +55,9 @@ public class FantasyListViewAdapter extends BaseAdapter {
         }
         holder.hp = listResult.get(position);
 
-        holder.textView1.setText("ads"+holder.hp.getName());
+        holder.textView1.setText(holder.hp.getName());
         holder.textView2.setText(holder.hp.getTeam());
-        holder.textView3.setText(holder.hp.getName());
+        holder.textView3.setText(holder.hp.getYes());
 
         return convertView;
     }

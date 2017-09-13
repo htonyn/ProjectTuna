@@ -31,7 +31,7 @@ public class MainActivity extends BaseActivity {
             Log.w("yourtag", "Error Package name not found ", e);
         }
         tv1 = (TextView) findViewById(R.id.potato);
-        tv1.setText(s);
+//        tv1.setText(s);
     }
 
     private void initialListener() {

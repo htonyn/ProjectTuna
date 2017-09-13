@@ -8,8 +8,8 @@
         android:id="@+id/lineup_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@null"
-        android:dividerHeight="0dip"
+        android:divider="@color/bravesNavy"
+        android:dividerHeight="1dp"
         android:fadingEdge="none" />
 
 </LinearLayout>
