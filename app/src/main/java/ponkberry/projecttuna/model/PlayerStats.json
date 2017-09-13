@@ -1,0 +1,833 @@
+lineUpCard{
+  team1:players[];  //Braves
+  team2:players[];  //Marlins
+}
+
+//http://www.espn.com/mlb/boxscore?gameId=370909115
+//https://www.mlb.com/gameday/marlins-vs-braves/2017/09/09/492222#game_state=final,lock_state=final,game_tab=box,game=492222
+//Position and HitterStats left blank because they arn't being used yet
+//Braves Players
+player{
+  name: "Inciarte",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Albies",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "F. Freeman",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Kemp",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Vizcaino",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Suzuki",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "M. Johnson",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Swanson",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Camargo",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "L. Adams",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Fried",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Sims",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Peterson",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Ramirez",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "M. Adams",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "S. Freeman",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Markakis",
+  team:"Braves",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+
+//---------------------------------------------------------------------------------------------------------------
+
+//Marlins Players
+player{
+  name: "Gordon",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Stanton",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Yelich",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Ozuna",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Realmuto",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Anderson",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Ellis",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Rojas",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Conley",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "McGowan",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Ellington",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Steckenrider",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Suzuki",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+player{
+  name: "Barraclough",
+  team:"Marlins",
+  position:"position or pitcher object",
+  hitterStats:"hitter object"
+}
+
+//---------------------------------------------------------------------------------------------------------------
+
+//players will either use the position object for their stats, except pitchers 
+//will use the pitcher object
+//Fielding Percentage left blank, not used yet
+//Braves Positions
+position{
+//Inciarte
+  posName:"CF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Albies 
+  posName:"2B",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:1,
+  OutfieldAssists:0
+}
+position{
+//F. Freeman
+  posName:"1B",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Kemp
+  posName:"LF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:1,
+  OutfieldAssists:1
+}
+position{
+//Vizcaino
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Suzuki
+  posName:"C",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//M. Johnson
+  posName:"PR",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Swanson
+  posName:"SS",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Camargo
+  posName:"3B",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//L. Adams
+  posName:"RF - LF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Fried
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Sims
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Peterson
+  posName:"PH",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Ramirez
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//M. Adams
+  posName:"PH",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//S. Freeman
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Markakis
+  posName:"RF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+
+//-------------------------------------------------------------------------------------------------------------
+
+//Marlins Positions
+position{
+//Gordon
+  posName:"2B",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:1,
+  OutfieldAssists:0
+}
+position{
+//Stanton
+  posName:"RF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Yelich
+  posName:"CF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Ozuna
+  posName:"LF",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:1
+}
+position{
+//Realmuto
+  posName:"1B",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:1,
+  OutfieldAssists:0
+}
+position{
+//Anderson
+  posName:"3B",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Ellis
+  posName:"C",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Rojas
+  posName:"SS",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:1,
+  OutfieldAssists:0
+}
+position{
+//Conley
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//McGowan
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Ellington
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Steckenrider
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Suzuki
+  posName:"PH",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+position{
+//Barraclough
+  posName:"P",
+  fieldingPercentage:"fieldingPercentage object",
+  doublePlaysTurned:0,
+  OutfieldAssists:0
+}
+
+//--------------------------------------------------------------------------------------------------------------
+
+//Braves Hitters
+hitter{
+//Inciarte
+  runs: 0,
+  rbi: 1,
+  totalBases:2,
+  stolenBases:0,
+  walks:1
+}
+hitter{
+//Albies
+  runs: 0,
+  rbi: 1,
+  totalBases:2,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+F. Freeman
+  runs: 0,
+  rbi: 1,
+  totalBases:2,
+  stolenBases:0,
+  walks:1
+}
+hitter{
+//Kemp
+  runs: 0,
+  rbi: 0,
+  totalBases:1,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Vizaino
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Suzuki
+  runs: 2,
+  rbi: 0,
+  totalBases:3,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//M. Johnson
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Swanson
+  runs: 1,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:1,
+  walks:3
+}
+hitter{
+//Camargo
+  runs: 1,
+  rbi: 3,
+  totalBases:5,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//L. Adams
+  runs: 1,
+  rbi: 0,
+  totalBases:1,
+  stolenBases:int,
+  walks:1
+}
+hitter{
+//Fried
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Sims
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Peterson
+  runs: 1,
+  rbi: 0,
+  totalBases:1,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Ramirez
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//M. Adams
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//S. Freeman
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Markakis
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:1
+}
+
+//---------------------------------------------------------------------------------------------------------------
+
+//Braves Pitchers
+pitcher{
+  name:"Fried",
+  outsRecorded:11,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:3.2,
+  hits:6,
+  earnedRuns:3, 
+  walks:1,
+  strikeouts:3,
+  battersHit:0
+}
+pitcher{
+  name:"Sims",
+  outsRecorded:7,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:2.1,
+  hits:2,
+  earnedRuns:1, 
+  walks:1,
+  strikeouts:3,
+  battersHit:0
+}
+pitcher{
+  name:"Ramirez",
+  outsRecorded:3,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:1,
+  hits:1,
+  earnedRuns:0, 
+  walks:0,
+  strikeouts:1,
+  battersHit:0
+}
+pitcher{
+  name:"S. Freeman",
+  outsRecorded:3,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:1,
+  hits:0,
+  earnedRuns:0, 
+  walks:0,
+  strikeouts:1,
+  battersHit:0
+}
+pitcher{
+  name:"Vizcaino",
+  outsRecorded:3,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:1,
+  hits:0,
+  earnedRuns:0, 
+  walks:2,
+  strikeouts:1,
+  battersHit:0
+}
+
+//-----------------------------------------------------------------------------------------------------------
+
+//Marlins Hitters
+hitter{
+//Gordon
+  runs: 0,
+  rbi: 0,
+  totalBases:1,
+  stolenBases:0,
+  walks:1
+}
+hitter{
+//Stanton
+  runs: 1,
+  rbi: 1,
+  totalBases:4,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Yelich
+  runs: 1,
+  rbi: 0,
+  totalBases:4,
+  stolenBases:0,
+  walks:1
+}
+hitter{
+//Ozuna
+  runs: 1,
+  rbi: 0,
+  totalBases:1,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Realmuto
+  runs: 1,
+  rbi: 2,
+  totalBases:4,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Anderson
+  runs: 1,
+  rbi: 1,
+  totalBases:2,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Ellis 
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:1
+}
+hitter{
+//Rojas
+  runs: 0,
+  rbi: 1,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Conley
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//McGowan
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Ellington
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Steckenrider
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+hitter{
+//Suzuki
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:1
+}
+hitter{
+//Barraclough
+  runs: 0,
+  rbi: 0,
+  totalBases:0,
+  stolenBases:0,
+  walks:0
+}
+
+//------------------------------------------------------------------------------------------------------------
+
+//Marlins Pitchers
+pitcher{
+  name:"Conley",
+  outsRecorded:14,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:4.2,
+  hits:9,
+  earnedRuns:4, 
+  walks:2,
+  strikeouts:2,
+  battersHit:1
+}
+pitcher{
+  name:"McGowan",
+  outsRecorded:4,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:1.1,
+  hits:3,
+  earnedRuns:1, 
+  walks:0,
+  strikeouts:1,
+  battersHit:0
+}
+pitcher{
+  name:"Ellington",
+  outsRecorded:3,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:1,
+  hits:0,
+  earnedRuns:0, 
+  walks:int,
+  strikeouts:1,
+  battersHit:0
+}
+pitcher{
+  name:"Steckenrider",
+  outsRecorded:3,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:1,
+  hits:0,
+  earnedRuns:0, 
+  walks:int,
+  strikeouts:2,
+  battersHit:0
+}
+pitcher{
+  name:"Barraclough",
+  outsRecorded:2,	//^^^For use in calculating innings pitched
+  posName:"pitcher",
+  inningsPitched:.2,
+  hits:1,
+  earnedRuns:1, 
+  walks:int,
+  strikeouts:0,
+  battersHit:0
+}
+
+//---------------------------------------------------------------------------------------------------
+
+//Braves
+teamRoster{
+  1B:F. Freeman,
+  SS:Swanson,
+  2B:Albies,
+  3B:Camargo,
+  C:Suzuki,
+  SP:Fried,
+  RP:Sims,
+  RF:Markakis,
+  CF:Inciarte,
+  LF:Kemp
+}
+
+//------------------------------------------------------------------------------------------------------------
+
+//Marlins
+teamRoster{
+  1B:Realmuto,
+  SS:Rojas,
+  2B:Gordon,
+  3B:Anderson,
+  C:Ellis,
+  SP:Conley,
+  RP:McGowan,
+  RF:Stanton,
+  CF:Yelich,
+  LF:Ozuna
+}
