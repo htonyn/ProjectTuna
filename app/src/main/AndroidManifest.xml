@@ -12,11 +12,16 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FantasyActivity"></activity>
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".FantasyActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".GameActivity"
+            android:label="@string/title_activity_game"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>

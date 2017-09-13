@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@android:color/white"
     tools:context="ponkberry.projecttuna.FantasyActivity">
 
+    <LinearLayout
+        android:id="@+id/ll_fantasy_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bravesNavy">
 
+        <TextView
+            android:id="@+id/tv_fantasy_title"
+            android:textSize="30sp"
+            android:text="Braves Fantasy - でいっと"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-</android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fantasy_tl"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bravesNavy"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:tabIndicatorColor="@color/bravesScarlet"
+            app:tabSelectedTextColor="@color/bravesScarlet"
+            app:tabTextColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="ponkberry.projecttuna.GameActivity">
+
+    <VideoView
+        android:id="@+id/gamesVideo"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <GridLayout
+        android:id="@+id/answersContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="250dp"
+        android:columnCount="1"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gamesVideo"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <Button
+            android:id="@+id/Saw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_rowWeight="1"
+            android:textColor="#000000"
+            android:background="@drawable/mybutton"
+            android:text="@string/Saw"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Drill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_rowWeight="1"
+            android:textColor="#000000"
+            android:background="@drawable/mybutton"
+            android:text="@string/Drill"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/Hammer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_rowWeight="1"
+            android:textColor="#000000"
+            android:background="@drawable/mybutton"
+            android:text="@string/Hammer"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/home_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_rowWeight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/mybuttonclicked"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Home: 57% Correct"
+                android:textSize="30sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/away_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_rowWeight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/mybuttonclicked"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Away: 13% Correct"
+                android:textSize="30sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
