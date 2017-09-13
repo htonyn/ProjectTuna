@@ -1,4 +1,5 @@
-package ponkberry.projecttuna.model.util;
+
+package ponkberry.projecttuna.model.util.schedule;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
