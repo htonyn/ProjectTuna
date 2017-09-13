@@ -1,16 +1,20 @@
 package ponkberry.projecttuna;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import butterknife.ButterKnife;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends BaseActivity {
     private Button bt1;
     private Button bt2;
-
+    private TextView tv1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +22,16 @@ public class MainActivity extends BaseActivity {
         ButterKnife.bind(this);
         initialView();
         initialListener();
+        PackageManager m = getPackageManager();
+        String s = getPackageName();
+        try {
+            PackageInfo p = m.getPackageInfo(s, 0);
+            s = p.applicationInfo.dataDir;
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.w("yourtag", "Error Package name not found ", e);
+        }
+        tv1 = (TextView) findViewById(R.id.potato);
+        tv1.setText(s);
     }
 
     private void initialListener() {

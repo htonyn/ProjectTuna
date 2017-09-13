@@ -8,17 +8,18 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import ponkberry.projecttuna.R;
-import ponkberry.projecttuna.object.LineUp;
+import ponkberry.projecttuna.model.util.home.HomePlayer;
 
 public class FantasyListViewAdapter extends BaseAdapter {
 
     private Context mContext;
     private final LayoutInflater mInflater;
-    private final ArrayList<LineUp> listResult;
+    private final List<HomePlayer> listResult;
 
-    public FantasyListViewAdapter(Context context, ArrayList<LineUp> listResult) {
+    public FantasyListViewAdapter(Context context, List<HomePlayer> listResult) {
         mContext = context;
         this.listResult = listResult;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -41,21 +42,24 @@ public class FantasyListViewAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ViewHolder holder;
+        ViewHolder2 holder;
         if(convertView == null) {
-            convertView = mInflater.inflate(R.layout.list_item, parent, false);
-            holder = new ViewHolder();
-            holder.textView1 = (TextView) convertView.findViewById(R.id.text_app_id);
-            holder.textView2 = (TextView) convertView.findViewById(R.id.text_app_name);
+            convertView = mInflater.inflate(R.layout.fantasy_list_item, parent, false);
+            holder = new ViewHolder2();
+            holder.textView1 = (TextView) convertView.findViewById(R.id.fantasy_player_name);
+            holder.textView2 = (TextView) convertView.findViewById(R.id.fantasy_player_stat);
+            holder.textView3 = (TextView) convertView.findViewById(R.id.fantasy_player_score);
             convertView.setTag(holder);
         } else {
-            holder = (ViewHolder) convertView.getTag();
+            holder = (ViewHolder2) convertView.getTag();
         }
-        holder.object = listResult.get(position);
+        holder.hp = listResult.get(position);
 
-//        holder.textView1.setText(""+holder.object.getAppid());
-//        holder.textView2.setText(holder.object.getName());
+        holder.textView1.setText("ads"+holder.hp.getName());
+        holder.textView2.setText(holder.hp.getTeam());
+        holder.textView3.setText(holder.hp.getName());
 
         return convertView;
     }
 }
+

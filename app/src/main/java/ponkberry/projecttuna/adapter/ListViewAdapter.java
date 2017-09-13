@@ -10,6 +10,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import ponkberry.projecttuna.R;
+import ponkberry.projecttuna.model.util.home.HomePlayer;
 import ponkberry.projecttuna.object.LineUp;
 
 public class ListViewAdapter extends BaseAdapter {
@@ -23,7 +24,6 @@ public class ListViewAdapter extends BaseAdapter {
         this.listResult = listResult;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
-
     @Override
     public int getCount() {
         return listResult.size();
@@ -43,7 +43,7 @@ public class ListViewAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if(convertView == null) {
-            convertView = mInflater.inflate(R.layout.list_item, parent, false);
+            convertView = mInflater.inflate(R.layout.lineup_list_item, parent, false);
             holder = new ViewHolder();
             holder.textView1 = (TextView) convertView.findViewById(R.id.text_app_id);
             holder.textView2 = (TextView) convertView.findViewById(R.id.text_app_name);

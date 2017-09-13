@@ -6,7 +6,7 @@
       "position": {
         "posName": "2B",
         "doublePlaysTurned": 1,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -31,7 +31,7 @@
       "position": {
         "posName": "RF",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 1,
@@ -56,7 +56,7 @@
       "position": {
         "posName": "CF",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 1,
@@ -81,7 +81,7 @@
       "position": {
         "posName": "LF",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 1
+        "outfieldassists": 1
       },
       "hitterStats": {
         "runs": 1,
@@ -106,7 +106,7 @@
       "position": {
         "posName": "1B",
         "doublePlaysTurned": 1,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 1,
@@ -131,7 +131,7 @@
       "position": {
         "posName": "3B",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 1,
@@ -156,7 +156,7 @@
       "position": {
         "posName": "C",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -181,7 +181,7 @@
       "position": {
         "posName": "SS",
         "doublePlaysTurned": 1,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -206,7 +206,7 @@
       "position": {
         "posName": "P",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -231,7 +231,7 @@
       "position": {
         "posName": "P",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -256,7 +256,7 @@
       "position": {
         "posName": "P",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -281,7 +281,7 @@
       "position": {
         "posName": "P",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -306,7 +306,7 @@
       "position": {
         "posName": "PH",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,
@@ -331,7 +331,7 @@
       "position": {
         "posName": "P",
         "doublePlaysTurned": 0,
-        "OutfieldAssists": 0
+        "outfieldassists": 0
       },
       "hitterStats": {
         "runs": 0,

@@ -1,8 +1,6 @@
 package ponkberry.projecttuna.view;
 
-import android.app.FragmentManager;
 import android.content.Context;
-import android.os.Parcel;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,15 +8,13 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import ponkberry.projecttuna.FantasyActivity;
 import ponkberry.projecttuna.R;
-import ponkberry.projecttuna.adapter.ListViewAdapter;
-//import ponkberry.projecttuna.gameobject.GameObject;
-import ponkberry.projecttuna.object.LineUp;
-import ponkberry.projecttuna.object.Team;
+import ponkberry.projecttuna.adapter.FantasyListViewAdapter;
+import ponkberry.projecttuna.model.util.Parser;
+import ponkberry.projecttuna.model.util.home.HomePlayer;
 
 
 public class FantasyView extends LinearLayout implements AdapterView.OnItemClickListener {
@@ -27,8 +23,8 @@ public class FantasyView extends LinearLayout implements AdapterView.OnItemClick
     private View view2;
     private LayoutInflater inflater;
     private FantasyActivity context;
-    private ListViewAdapter adapter;
-    private ArrayList<LineUp> gameList = new ArrayList<>();
+    private FantasyListViewAdapter adapter;
+    private List<HomePlayer> gameList = new ArrayList<>();
     private ListView listView;
 
     public FantasyView(Context context) {
@@ -36,15 +32,16 @@ public class FantasyView extends LinearLayout implements AdapterView.OnItemClick
         this.context = (FantasyActivity) context;
         inflater = LayoutInflater.from(context);
         view = inflater.inflate(R.layout.list_view, this);
-        ButterKnife.bind(this, view);
         listView = (ListView) findViewById(R.id.lineup_listview);
         initializeList();
     }
 
     private void initializeList() {
         view2 = inflater.inflate(R.layout.list_header, this);
-        populateGameList(gameList);
-        adapter = new ListViewAdapter(this.context, gameList);
+//        populateGameList(gameList);
+        gameList = new Parser().getHomeTeam(context);
+        System.out.println(gameList.toString());
+        adapter = new FantasyListViewAdapter(this.context, gameList);
         View header = LayoutInflater.from(view2.getContext())
                 .inflate(R.layout.list_header, listView, false);
         listView.setAdapter(adapter);
@@ -55,8 +52,9 @@ public class FantasyView extends LinearLayout implements AdapterView.OnItemClick
         adapter.notifyDataSetChanged();
     }
 
-    private void populateGameList(ArrayList<LineUp> list) {
-//        list.add(new GameObject("Angels that Kill", 410680, "Demo", 2, 1, "0.1 Hours"));
+    private void populateGameList(List<HomePlayer> list) {
+        //list = new Parser().getHomeTeam();
+        list.add(new HomePlayer("Inciarte", "Braves", "Yes"));
     }
 
     @Override

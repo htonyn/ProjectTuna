@@ -1,0 +1,354 @@
+{
+  "players": [
+    {
+      "name": "Gordon",
+      "team": "Marlins",
+      "position": {
+        "posName": "2B",
+        "doublePlaysTurned": 1,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 1,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Stanton",
+      "team": "Marlins",
+      "position": {
+        "posName": "RF",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 1,
+        "totalBases": 4,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Yelich",
+      "team": "Marlins",
+      "position": {
+        "posName": "CF",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 0,
+        "totalBases": 4,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Ozuna",
+      "team": "Marlins",
+      "position": {
+        "posName": "LF",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 1
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 0,
+        "totalBases": 1,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Realmuto",
+      "team": "Marlins",
+      "position": {
+        "posName": "1B",
+        "doublePlaysTurned": 1,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 2,
+        "totalBases": 4,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Anderson",
+      "team": "Marlins",
+      "position": {
+        "posName": "3B",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 1,
+        "totalBases": 2,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Ellis",
+      "team": "Marlins",
+      "position": {
+        "posName": "C",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Rojas",
+      "team": "Marlins",
+      "position": {
+        "posName": "SS",
+        "doublePlaysTurned": 1,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 1,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Conley",
+      "team": "Marlins",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 14,
+        "posName": "pitcher",
+        "hits": 9,
+        "earnedRuns": 4,
+        "walks": 2,
+        "strikeouts": 2,
+        "battersHit": 1
+      }
+    },
+    {
+      "name": "McGowan",
+      "team": "Marlins",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 4,
+        "posName": "pitcher",
+        "hits": 3,
+        "earnedRuns": 1,
+        "walks": 0,
+        "strikeouts": 1,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Ellington",
+      "team": "Marlins",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 3,
+        "posName": "pitcher",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 1,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Steckenrider",
+      "team": "Marlins",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 3,
+        "posName": "pitcher",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 2,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Suzuki",
+      "team": "Marlins",
+      "position": {
+        "posName": "PH",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Barraclough",
+      "team": "Marlins",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "outfieldassists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 2,
+        "posName": "pitcher",
+        "hits": 1,
+        "earnedRuns": 1,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    }
+  ]
+}

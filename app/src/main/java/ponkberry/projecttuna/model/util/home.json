@@ -1,0 +1,429 @@
+{
+  "players": [
+    {
+      "name": "Inciarte",
+      "team": "Braves",
+      "position": {
+        "posName": "CF",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 1,
+        "totalBases": 2,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Albies",
+      "team": "Braves",
+      "position": {
+        "posName": "2B",
+        "doublePlaysTurned": 1,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 1,
+        "totalBases": 2,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "F. Freeman",
+      "team": "Braves",
+      "position": {
+        "posName": "1B",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 1,
+        "totalBases": 2,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Kemp",
+      "team": "Braves",
+      "position": {
+        "posName": "LF",
+        "doublePlaysTurned": 1,
+        "OutfieldAssists": 1
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 1,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Vizcaino",
+      "team": "Braves",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Suzuki",
+      "team": "Braves",
+      "position": {
+        "posName": "C",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 2,
+        "rbi": 0,
+        "totalBases": 3,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "M. Johnson",
+      "team": "Braves",
+      "position": {
+        "posName": "PR",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Swanson",
+      "team": "Braves",
+      "position": {
+        "posName": "SS",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 1,
+        "walks": 3
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Camargo",
+      "team": "Braves",
+      "position": {
+        "posName": "3B",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 3,
+        "totalBases": 5,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "L. Adams",
+      "team": "Braves",
+      "position": {
+        "posName": "RF - LF",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 0,
+        "totalBases": 1,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Fried",
+      "team": "Braves",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 11,
+        "posName": "pitcher",
+        "hits": 6,
+        "earnedRuns": 3,
+        "walks": 1,
+        "strikeouts": 3,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Sims",
+      "team": "Braves",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 7,
+        "posName": "pitcher",
+        "hits": 2,
+        "earnedRuns": 1,
+        "walks": 1,
+        "strikeouts": 3,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Peterson",
+      "team": "Braves",
+      "position": {
+        "posName": "PH",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 1,
+        "rbi": 0,
+        "totalBases": 1,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Ramirez",
+      "team": "Braves",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 3,
+        "posName": "pitcher",
+        "hits": 1,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 1,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "M. Adams",
+      "team": "Braves",
+      "position": {
+        "posName": "PH",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "S. Freeman",
+      "team": "Braves",
+      "position": {
+        "posName": "P",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 0
+      },
+      "pitcher": {
+        "outsRecorded": 3,
+        "posName": "pitcher",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 1,
+        "battersHit": 0
+      }
+    },
+    {
+      "name": "Markakis",
+      "team": "Braves",
+      "position": {
+        "posName": "RF",
+        "doublePlaysTurned": 0,
+        "OutfieldAssists": 0
+      },
+      "hitterStats": {
+        "runs": 0,
+        "rbi": 0,
+        "totalBases": 0,
+        "stolenBases": 0,
+        "walks": 1
+      },
+      "pitcher": {
+        "outsRecorded": "null",
+        "posName": "null",
+        "hits": 0,
+        "earnedRuns": 0,
+        "walks": 0,
+        "strikeouts": 0,
+        "battersHit": 0
+      }
+    }
+  ]
+}

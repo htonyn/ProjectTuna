@@ -22,6 +22,14 @@ public class HomePlayer {
     @Expose
     private Pitcher pitcher;
 
+    public HomePlayer(String potato1, String potato2, String potato3) {
+        name=potato1;
+        team=potato2;
+        position=null;
+        hitterStats=null;
+        pitcher=null;
+    }
+
     public String getName() {
         return name;
     }
